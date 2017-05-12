@@ -8,20 +8,26 @@
 
 /* Begin PBXBuildFile section */
 		70493A8A1EBBD1CE00EA4928 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493A891EBBD1CE00EA4928 /* AppDelegate.swift */; };
-		70493A8C1EBBD1CE00EA4928 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493A8B1EBBD1CE00EA4928 /* ViewController.swift */; };
 		70493A8F1EBBD1CE00EA4928 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70493A8D1EBBD1CE00EA4928 /* Main.storyboard */; };
 		70493A911EBBD1CE00EA4928 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70493A901EBBD1CE00EA4928 /* Assets.xcassets */; };
 		70493A941EBBD1CE00EA4928 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70493A921EBBD1CE00EA4928 /* LaunchScreen.storyboard */; };
+		70493A9C1EBBD1F100EA4928 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493A9B1EBBD1F100EA4928 /* Data.swift */; };
+		70493A9E1EBBFEF700EA4928 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493A9D1EBBFEF700EA4928 /* RegisterViewController.swift */; };
+		70493AA01EBCC43500EA4928 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493A9F1EBCC43400EA4928 /* LoginViewController.swift */; };
+		70493AA21EBCC73000EA4928 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70493AA11EBCC72F00EA4928 /* DashBoardViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		70493A861EBBD1CE00EA4928 /* JeffNationalBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JeffNationalBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70493A891EBBD1CE00EA4928 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		70493A8B1EBBD1CE00EA4928 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		70493A8E1EBBD1CE00EA4928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70493A901EBBD1CE00EA4928 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70493A931EBBD1CE00EA4928 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70493A951EBBD1CE00EA4928 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70493A9B1EBBD1F100EA4928 /* Data.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		70493A9D1EBBFEF700EA4928 /* RegisterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		70493A9F1EBCC43400EA4928 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		70493AA11EBCC72F00EA4928 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DashBoardViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				70493A891EBBD1CE00EA4928 /* AppDelegate.swift */,
-				70493A8B1EBBD1CE00EA4928 /* ViewController.swift */,
 				70493A8D1EBBD1CE00EA4928 /* Main.storyboard */,
+				70493A9F1EBCC43400EA4928 /* LoginViewController.swift */,
+				70493A9D1EBBFEF700EA4928 /* RegisterViewController.swift */,
+				70493AA11EBCC72F00EA4928 /* DashBoardViewController.swift */,
 				70493A901EBBD1CE00EA4928 /* Assets.xcassets */,
 				70493A921EBBD1CE00EA4928 /* LaunchScreen.storyboard */,
 				70493A951EBBD1CE00EA4928 /* Info.plist */,
+				70493A9B1EBBD1F100EA4928 /* Data.swift */,
 			);
 			path = JeffNationalBank;
 			sourceTree = "<group>";
@@ -137,7 +146,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70493A8C1EBBD1CE00EA4928 /* ViewController.swift in Sources */,
+				70493AA21EBCC73000EA4928 /* DashBoardViewController.swift in Sources */,
+				70493AA01EBCC43500EA4928 /* LoginViewController.swift in Sources */,
+				70493A9E1EBBFEF700EA4928 /* RegisterViewController.swift in Sources */,
+				70493A9C1EBBD1F100EA4928 /* Data.swift in Sources */,
 				70493A8A1EBBD1CE00EA4928 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -304,6 +316,7 @@
 				70493A9A1EBBD1CE00EA4928 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
